@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Colecciones">
+      <UniqueIdentifier>{46bddbac-11d9-40f1-b86d-f56ac20c2e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Colecciones">
+      <UniqueIdentifier>{cc57a6e3-3c19-4c12-a591-83a4dbaba924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Clases">
+      <UniqueIdentifier>{d705bb29-971d-4238-9a0d-df211602d588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Cpp">
+      <UniqueIdentifier>{5105895d-a1ce-48c0-939f-71f226355254}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColeccionCamas.h">
+      <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ColeccionEspecialidades.h">
+      <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ColeccionPabellones.h">
+      <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ColeccionDoctores.h">
+      <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Cama.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Especialidad.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Pabellon.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Paciente.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaz.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ColeccionPacientes.h">
+      <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Hospital.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ColeccionCamas.cpp">
+      <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ColeccionEspecialidades.cpp">
+      <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ColeccionPabellones.cpp">
+      <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ColeccionDoctores.cpp">
+      <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Cama.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Doctor.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Especialidad.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Pabellon.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Paciente.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaz.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ColeccionPacientes.cpp">
+      <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Hospital.cpp">
+      <Filter>Archivos de origen\Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
